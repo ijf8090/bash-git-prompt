@@ -179,7 +179,7 @@ listed in .gitignore.
 
 #### Themes
 
-The most settings are now stored in theme files. To select a theme, set the variable `GIT_PROMPT_THEME` to the name
+Most settings are now stored in theme files. To select a theme, set the variable `GIT_PROMPT_THEME` to the name
 of the theme located in `<INSTALLDIR>/themes` without the extension `.bgptheme` like this:
 
 ```sh
@@ -224,7 +224,7 @@ override_git_prompt_colors() {
 reload_git_prompt_colors "Custom"
 ```
 
-The advantage of this approach is, that you only need to specify the parts, that are different to the Default theme.
+The advantage of this approach is that you only need to specify the parts that are different to the Default theme.
 
 If you use a custom theme in `.git-prompt-colors.sh`, please set `GIT_PROMPT_THEME_NAME="Custom"`.
 
